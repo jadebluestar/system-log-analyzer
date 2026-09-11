@@ -1,8 +1,12 @@
 # System Log Analyzer (C)
 
 A small terminal-based tool that reads a plain-text log file, summarizes it,
-and lets you search it by keyword. Written in C for Linux, as a fundamentals
-project (file I/O, structs, pointers, string parsing, modular headers, Makefile).
+and lets you search it by keyword. 
+
+<img width="480" height="270" alt="image" src="https://github.com/user-attachments/assets/6260d8cd-2d88-471b-9a12-bd8a47304383" />
+
+A simplified, hand-rolled version of what `grep`, `awk`, or log-management tools (Splunk, ELK stack, journalctl) do for a living, i.e, turning a raw stream of log lines into "what happened, how often, and where."
+
 
 ## Build
 
@@ -18,28 +22,8 @@ make
 
 Example output:
 
-```
-===== LOG SUMMARY =====
+<img width="480" height="270" alt="image" src="https://github.com/user-attachments/assets/67208051-de60-432b-8f32-942e07a96638" />
 
-Total entries : 15
-INFO          : 5
-WARNING       : 3
-ERROR         : 7
-
-Most common errors:
-
-1. Sensor timeout - 3
-2. Connection failed - 3
-3. Memory allocation failed - 1
-
-Enter keyword to search:
-
-> timeout
-
-Found 3 matching entries.
-
-Report written to report.txt
-```
 
 ## Expected log line format
 
