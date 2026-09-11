@@ -1,0 +1,15 @@
+2026-09-11 10:15:22 INFO System started
+2026-09-11 10:16:03 INFO User logged in
+2026-09-11 10:17:45 WARNING High memory usage
+2026-09-11 10:18:12 ERROR Sensor timeout
+2026-09-11 10:18:45 ERROR Connection failed
+2026-09-11 10:19:02 ERROR Sensor timeout
+2026-09-11 10:19:30 WARNING High memory usage
+2026-09-11 10:19:50 ERROR Connection failed
+2026-09-11 10:20:01 INFO System recovered
+2026-09-11 10:20:15 ERROR Sensor timeout
+2026-09-11 10:21:00 INFO Backup completed
+2026-09-11 10:21:30 ERROR Memory allocation failed
+2026-09-11 10:22:00 WARNING Disk space low
+2026-09-11 10:22:45 ERROR Connection failed
+2026-09-11 10:23:10 INFO Heartbeat OK
